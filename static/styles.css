@@ -1,0 +1,88 @@
+/* styles.css */
+
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+  background: linear-gradient(to bottom right, #f0f8ff, #e6f0ff);
+  color: #2c3e50;
+}
+
+
+header {
+  background-color: #2c3e50; /* 더 밝은 회색 */
+  color: #2c3e50;
+  padding: 1rem;
+  text-align: center;
+}
+
+
+header h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.5rem;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+}
+
+section {
+  margin-bottom: 2rem;
+  padding: 0.5px 1.5rem 1.5rem 1.5rem;
+  border-radius: 16px;
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.logo {
+  width: 300px;
+  max-width: 80%;
+  margin-bottom: 0.5rem;  /* 기존 1rem에서 줄임 */
+}
+
+header p {
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 1;
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
+
+main {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.button {
+  display: block;
+  background: white;
+  color: #2c3e50;
+  padding: 1.2rem;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  font-weight: bold;
+  font-size: 1.05rem;
+}
+
+.button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+  background-color: #ecf0f1;
+}
+
+.button.disabled {
+  background-color: #eee;
+  color: #aaa;
+  cursor: not-allowed;
+}
