@@ -32,13 +32,13 @@ section {
 .logo {
   width: 300px;
   max-width: 80%;
-  margin-bottom: 0.5rem;  /* 기존 1rem에서 줄임 */
+  margin-bottom: 1rem;  /* 기존 1rem에서 줄임 */
 }
 
 header p {
   color: #fff;
   margin-top: 0;
-  margin-bottom: 1;
+  margin-bottom: 0.5;
   font-size: 1.5rem;
   line-height: 1.2;
 }
